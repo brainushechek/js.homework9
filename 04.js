@@ -1,0 +1,1 @@
+let p = document.querySelectorAll('p').forEach((el) => el.onclick = (event) => el.innerText = Math.pow(el.textContent, 2))
